@@ -1,6 +1,8 @@
+----
 Project: EventCounter
 Author: Jeffrey Zhou
 Date: 2/1/2021
+----
 
 # EventCounter
 
@@ -15,7 +17,7 @@ Date: 2/1/2021
 
 ### Class Variables
 ```java
-	/**
+    /**
      * int variable to limit how many minutes in the past to keep track of counts
      */
     private final int upperBoundMinutes = 5;
@@ -27,14 +29,14 @@ Date: 2/1/2021
      * It maintains insertion order
      * Ex: {2021-01-31T11:38:11=1, 2021-01-31T11:38:12=1, 2021-01-31T11:38:13=1}
      */
-	private final int upperBoundMinutes = 5;
+    private final LinkedHashMap<LocalDateTime, Integer> dateTimeToCountMap = new LinkedHashMap<>();
 ```
 
 ```java
-	/**
+    /**
      * LocalDateTime variable to track the current date and time
      */
-	private final int upperBoundMinutes = 5;
+    private LocalDateTime timeNow = LocalDateTime.now().withNano(0);
 ```
 
 ### Methods
