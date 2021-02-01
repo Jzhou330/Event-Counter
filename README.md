@@ -1,8 +1,6 @@
-----
-Project: EventCounter
-Author: Jeffrey Zhou
-Date: 2/1/2021
-----
+Project: EventCounter<br>
+Author: Jeffrey Zhou<br>
+Date: 2/1/2021<br>
 
 # EventCounter
 
