@@ -1,8 +1,6 @@
----
 Project: EventCounter
 Author: Jeffrey Zhou
 Date: 2/1/2021
----
 
 # EventCounter
 
